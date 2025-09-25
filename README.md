@@ -3,11 +3,12 @@
 *A text-based roguelike that turns job search trauma into gameplay*
 
 ## 🎮 The Experience
-- Apply to jobs (and face rejection)
-- Pay bills while savings drain  
-- Manage energy, confidence, and sanity
-- Different outcomes based on age and industry
-- Try to land that dream job before you burn out
+
+- Every run is different: randomized jobs, recruiter moods, surprise bills.
+
+- Win by landing the dream job; lose by eviction, burnout, or giving up.
+
+- This is V0: intentionally raw, balance is spicy.
 
 ## 🚀 How to Play
 **Python Version:**
