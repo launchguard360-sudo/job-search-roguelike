@@ -101,13 +101,21 @@ Python 3
 Pure text interface
 Roguelike mechanics applied to career struggles
 
-📈 Roadmap (V1 Coming Soon)
+🗺️ Development Roadmap
 
- Multiple victory paths (survival, consulting, pivot)
- Enhanced industry system with pros/cons
- Better skill progression trees
- Age bracket advantages/disadvantages
- Save/load functionality
+**V0 (Current)**: Core mechanics - prove the concept works
+- Basic job search loop, simple victory condition
+
+**V0.1 (Next)**: Quality of life improvements  
+- Age brackets, industry variety, better balance
+
+**V0.2 (Soon)**: Personality & flavor
+- Recruiter emotions, more event variety, better text
+
+**V0.3+**: Based on your feedback!
+- Multiple victory paths, better economy, deeper systems
+
+**What should we prioritize?** Join the discussion!
 
 💬 Feedback Welcome!
 This is V0 - built from real job search experience. What resonates? What's missing?
