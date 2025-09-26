@@ -12,7 +12,7 @@
 
 ## 🚀 How to Play
 **Python Version:**
-Run: `python job_search_roguelike_V01.py`
+Run: `python job_search_roguelike_V0.py`
 
 Windows EXE: Available on itch.io - no installation needed!
 
