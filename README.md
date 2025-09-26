@@ -12,89 +12,57 @@
 
 ## 🚀 How to Play
 **Python Version:**
-Run: `python job_search_roguelike_V0.py`
+Run: `python job_search_roguelike_V01.py`
 
 Windows EXE: Available on itch.io - no installation needed!
-Character Creation
-
-Enter your name (or hit Enter for "Player")
-Choose age bracket:
-
-Young Grad: High energy, eager to learn, low money, manageable bills
-Mid-Career: Balanced stats, no major advantages/disadvantages
-Late-Career: High money reserves, strong confidence, but faces ageism
 
 
-Pick your industry (affects available jobs and required skills)
+This is the first playable prototype of Job Search Roguelike. It’s intentionally rough but fully playable — the goal is to land the dream job before you run out of resources.
 
-Core Gameplay Loop
-Each week, choose one action. Every choice costs energy and time:
-🔍 Apply to Jobs (Energy: -8)
+1. Start your run
 
-Random job postings appear with different salaries and skill requirements
-Your callback chance depends on: skill overlap + confidence + leads
-If you get an interview, face two skill checks: Hiring Manager + Panel
-Outcomes: Rejection (confidence hit) → Interview invite → Job offer or failure
+Enter your name (or press Enter to use the default).
 
-🤝 Network (Energy: -6)
+You begin with:
 
-Attend meetups, send LinkedIn messages, coffee chats
-Gain 0-2 leads (max 5) which boost future application success
-Small confidence boost/hit depending on how awkward it goes
-Tip: Leads significantly improve your callback rates
+Energy 💤: how much effort you can spend.
 
-📚 Train Skills (Energy: -8)
+Money 💸: used for training and paying bills.
 
-Random training options appear (Excel, Coding, Negotiation, etc.)
-Costs money but adds permanent skills to your profile
-More skill overlap with jobs = much better callback chances
-Strategy: Invest early when you have money
+Confidence 💡: drops when you get rejected, rises with wins.
 
-😴 Rest (Energy: +10-20)
+Skills 📚: start with one.
 
-Recover energy and slight confidence boost
-Sometimes you need to rest to avoid complete burnout
-Balance: Don't rest too much or bills will crush you
+Leads 🧑‍🤝‍🧑: networking potential.
 
-💼 Gig Job (Energy: -6)
+2. Each week, choose an action
 
-Quick cash from temp work or freelancing
-Small confidence hit (soul-crushing work) but pays bills
-Emergency option when money gets too low
+1) Apply → sends out an application. May lead to interview → job → dream job (win!) or rejection (confidence loss).
 
-Resources to Manage
+2) Network → meet people, gain leads, sometimes boost or lose confidence.
 
-💰 Money: Starts at $2000, drains from bills every 4 weeks ($1000)
-⚡ Energy: Starts at 70, depletes with actions, recover by resting
-😊 Confidence: Starts at 60, affected by rejections/successes
-🎯 Leads: Start at 0, max 5, boost your application success rates
-🛠️ Skills: Start with one, gain more through training
+3) Train → spend money to add a new skill. Increases confidence, helps with callbacks.
 
-Victory Conditions
-🏆 Dream Job Victory: Land a high-paying role ($120k+) that matches your skills
-Defeat Conditions
+4) Rest → recover energy, small confidence boost.
 
-💸 Evicted: Money drops below -$100
-🔥 Burnout: Energy hits 0 (you're too exhausted to continue)
-😔 Gave Up: Confidence drops to 0 (lost all hope)
+3. Pay bills
 
-Pro Tips
+Every 4 weeks, $1000 is deducted automatically. If you can’t keep up, eviction looms.
 
-Early game: Focus on training skills when you have money
-Mid game: Balance applications with networking for leads
-Late game: If low on money, take gig work to survive
-Bills: Every 4 weeks you pay $1000 - plan accordingly
-Skill matching: Jobs requiring your exact skills have much higher callback rates
-Confidence spiral: Rejections hurt confidence, which hurts future success - take breaks to rest
+4. End conditions
 
-Sample Turn
-Week 3 | Energy 45 | Money $1200 | Confidence 52 | Leads 2 | Skills ['Writing']
-1) Apply  2) Network  3) Train  4) Rest
+Win 🏆: Land a dream job (high salary offer).
 
-> 1
-Interview invite! Recruiter sounded excited.
-You crushed the interviews! HM check 65%, Panel check 78%.
-OFFER: Decent role (Salary $75000). You accept a short-term contract. (+money, run continues)
+Lose ❌:
+
+Money ≤ −100 → Evicted.
+
+Energy ≤ 0 → Burnout.
+
+Confidence ≤ 0 → Gave up.
+
+👉 Tip: If you only Apply, you’ll burn out or go broke fast. Balance Training, Networking, and Rest to survive long enough for the right opportunity.
+
 
 🛠️ Built With
 
