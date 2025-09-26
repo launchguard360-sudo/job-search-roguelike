@@ -131,6 +131,33 @@ Windows users can double-click the `.py` file if Python is associated.
 
 ---
 
+### v0.5.1e (Gentle Mode, Tuned, Title + Exitfix)
+
+This build is a playable balance pass of the Job Search Roguelike designed to give unemployed players a more pleasant, cathartic run-through without removing the real-life sting of job hunting.
+
+Key Features in this version:
+
+Gentle Mode tuning: Win rates for all age brackets (Young, Mid, Late) calibrated to ~32–35% under random play, so every run feels survivable while still challenging.
+
+Title screen restored: Memorable intro banner with creator credit and subtitle (Based on Real Life Horror Stories :)).
+
+Safe exit wrapper: When packaged as an .exe, the window no longer vanishes instantly — it always pauses for ENTER before closing, whether you win, lose, or crash.
+
+Balanced mechanics:
+
+Rest now restores more energy and scales with age assists.
+
+Weekly costs and unemployment benefits adjust by career stage.
+
+Application success odds include small age-based bonuses.
+
+Victory conditions: Multiple win paths (Dream Job, Portfolio contracts, Consultant). Loss occurs if Energy, Money, or Confidence run out.
+
+Why this build matters:
+This version is tuned to be empathetic yet funny, ensuring that unemployed players who just want a quick laugh or a hopeful escape can still succeed in a run without grinding through repeated frustration
+
+---
+
 ## 🚧 Roadmap
 
 Future ideas (based on feedback):
