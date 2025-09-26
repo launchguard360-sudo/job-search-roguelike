@@ -1,93 +1,145 @@
-# Job Search Roguelike
+Here’s a **GitHub-ready README.md** that covers **v0 → v0.5**, the gameplay loop, improvements by version, and a roadmap feel.
+You can paste this directly into your repo as `README.md`.
 
-*A text-based roguelike that turns job search trauma into gameplay*
+---
 
-## 🎮 The Experience
+````markdown
+# Job Search Roguelike 🎮
 
-- Every run is different: randomized jobs, recruiter moods, surprise bills.
+A text-based roguelike where the dungeon is… the job market.  
+Built in Python as a learning project — feedback welcome!
 
-- Win by landing the dream job; lose by eviction, burnout, or giving up.
+---
 
-- This is V0: intentionally raw, balance is spicy.
+## 📥 Download & Run
+Clone or download this repo, then run one of the version scripts with Python 3.9+:
 
-## 🚀 How to Play
-**Python Version:**
-Run: `python job_search_roguelike_V0.py`
+```bash
+python job_search_roguelike_v0.py
+python job_search_roguelike_v01.py
+python job_search_roguelike_v02.py
+python job_search_roguelike_v03.py
+python job_search_roguelike_v04.py
+python job_search_roguelike_v05.py
+````
 
-Windows EXE: Available on itch.io - no installation needed!
+Each version ends with **“Press ENTER to exit…”** to avoid terminal flicker.
+Windows users can double-click the `.py` file if Python is associated.
+
+---
+
+## 🎯 Core Gameplay Loop
+
+* Manage **Energy, Money, and Confidence** while job hunting.
+* Choose weekly actions:
+
+  * **Apply** → chance at callbacks/offers
+  * **Network** → boosts connections
+  * **Train** → build industry skills
+  * **Rest** → restore energy
+  * (from v0.5) **Self-Care** and **Interview Prep** add more control
+* Survive random events: rejections, bills, surprise gigs, good news.
+* Win by landing a **dream job** or through alternative career paths.
+* Lose if **any core stat hits zero**.
+
+---
+
+## 🛠️ Version History
+
+### v0 — The Bare Minimum (MVP)
+
+* Core stats: Energy, Money, Confidence
+* Actions: Apply, Network, Train, Rest
+* Random events: rejections, bills, small wins
+* Victory: land dream job
+* Loss: run out of any stat
+* **Fix:** added exit pause (`Press ENTER to exit…`)
+
+👉 *Proof of concept — invite laughs & “too real” comments.*
+
+---
+
+### v0.1 — Identity & Replay
+
+* Added **Age brackets**: Young, Mid, Late career
+* Added **Industries** with skill tags & culture flavor
+* Bills now **scale with age bracket**
+
+👉 *Hook: “Which industry should I expand next?”*
+
+---
+
+### v0.2 — Flavor & Variety
+
+* Recruiters now have **emotions** (cheery, rushed, skeptical)
+* New weekly events: **surprise bills, temp gigs, good news**
+* More flavorful text for interviews and outcomes
+
+👉 *Hook: “What’s the worst real rejection email line you’ve seen?”*
+
+---
+
+### v0.3 — Balance & Challenge
+
+* **Rent due every 6 weeks**
+* **Unemployment benefit**: $200/week for up to 4 weeks
+* **Resilience mechanic**: rejections sting less over time
+* Tweaked **energy costs & gig scaling**
+
+👉 *Hook: share 1,000-run stats like: “70% survive, 25% broke, 5% burnout — realistic?”*
+
+---
+
+### v0.4 — Multiple Paths to Victory
+
+* Survival victory (last 26 weeks)
+* Portfolio victory (secure 3+ contracts)
+* Pivot victory (switch industries successfully)
+* Consultant victory (network + skills + savings)
+
+👉 *Hook: “What’s YOUR definition of career success? Should I add it as a win?”*
+
+---
+
+### v0.5 — Player Agency
+
+* **Self-Care**: spend money to restore Energy + Confidence
+* **Interview Prep**: spend money/energy for bonus to next interview
+* **Networking upgrades**: chance for warm introductions (better callbacks)
+
+👉 *Hook: “What’s the most underrated job search strategy IRL?”*
+
+---
+
+## 🚧 Roadmap
+
+Future ideas (based on feedback):
+
+* Remote / hybrid / onsite job types
+* Multi-stage interviews
+* More industry-specific job types & starting goals
+* Expanded random events (networking fails, burnout, side hustles)
+* Polished UI or graphical version
+
+---
+
+## 💬 Feedback
+
+* Leave a GitHub issue or comment on [itch.io page](https://jobseeker.itch.io/job-search-roguelike)
+* Or reach me at: [richardglenn.delacruz1@gmail.com]
+
+---
+
+## ❤️ Support
+
+This game is **free**. If you enjoy it and want to fuel further updates,
+optional donations are enabled on itch.io.
 
 
-This is the first playable prototype of Job Search Roguelike. It’s intentionally rough but fully playable — the goal is to land the dream job before you run out of resources.
 
-1. Start your run
-
-Enter your name (or press Enter to use the default).
-
-You begin with:
-
-Energy 💤: how much effort you can spend.
-
-Money 💸: used for training and paying bills.
-
-Confidence 💡: drops when you get rejected, rises with wins.
-
-Skills 📚: start with one.
-
-Leads 🧑‍🤝‍🧑: networking potential.
-
-2. Each week, choose an action
-
-1) Apply → sends out an application. May lead to interview → job → dream job (win!) or rejection (confidence loss).
-
-2) Network → meet people, gain leads, sometimes boost or lose confidence.
-
-3) Train → spend money to add a new skill. Increases confidence, helps with callbacks.
-
-4) Rest → recover energy, small confidence boost.
-
-3. Pay bills
-
-Every 4 weeks, $1000 is deducted automatically. If you can’t keep up, eviction looms.
-
-4. End conditions
-
-Win 🏆: Land a dream job (high salary offer).
-
-Lose ❌:
-
-Money ≤ −100 → Evicted.
-
-Energy ≤ 0 → Burnout.
-
-Confidence ≤ 0 → Gave up.
-
-👉 Tip: If you only Apply, you’ll burn out or go broke fast. Balance Training, Networking, and Rest to survive long enough for the right opportunity.
-
-
-🛠️ Built With
-
-Python 3
-Pure text interface
-Roguelike mechanics applied to career struggles
-
-🗺️ Development Roadmap
-
-**V0 (Current)**: Core mechanics - prove the concept works
-- Basic job search loop, simple victory condition
-
-**V0.1 (Next)**: Quality of life improvements  
-- Age brackets, industry variety, better balance
-
-**V0.2 (Soon)**: Personality & flavor
-- Recruiter emotions, more event variety, better text
-
-**V0.3+**: Based on your feedback!
-- Multiple victory paths, better economy, deeper systems
-
-**What should we prioritize?** Join the discussion!
 
 💬 Feedback Welcome!
-This is V0 - built from real job search experience. What resonates? What's missing?
+Built from real job search experiences. What resonates? What's missing?
 Found a bug? Open an issue
 Have an idea? Start a discussion
 Want to contribute? Fork and submit a PR!
