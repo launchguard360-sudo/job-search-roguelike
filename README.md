@@ -111,6 +111,26 @@ Windows users can double-click the `.py` file if Python is associated.
 
 ---
 
+### v0.5.1e — Tone & UX Polish
+
+* Mixed Humor+Empathy Pool: combined copy bank for events/rejections/tooltips to keep moments supportive *and* funny.
+* Age Picker Trade-offs (rebalanced):
+
+  * **Young:** lower weekly/rent costs.
+  * **Mid:** balanced costs, **+1 random background skill**, **+1 Confidence**.
+  * **Late:** slightly higher costs, **+2 background skills (spread)**, **+2 Confidence**, **+$100** starting savings.
+* Low-Resource Warnings: pre-action alerts when Energy or Money is about to hit zero.
+* “Streak Assist” rename: replaced the “pity system” label in UI/code with a neutral term (logic unchanged).
+
+**Deletions / Removals**
+
+* Removed the separate humor vs. empathy toggles (now a single mixed pool).
+* Removed all “pity system” wording from UI/comments (now “Streak Assist”).
+
+👉 Hook: “Should we let you toggle Gentle Mode, Dark Humor Mode, or keep the mixed pool?”
+
+---
+
 ## 🚧 Roadmap
 
 Future ideas (based on feedback):
